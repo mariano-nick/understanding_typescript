@@ -1,7 +1,7 @@
 
 class Car {
     name: string;
-    acceleration = 0;
+    acceleration: number = 0;
 
     constructor(name: string) {
         this.name = name;
